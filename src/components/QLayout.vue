@@ -2,7 +2,6 @@
   setup
   lang="ts"
 >
-import QRow from "./QRow.vue";
 </script>
 
 <template>
@@ -13,18 +12,14 @@ import QRow from "./QRow.vue";
     </header>
   </div>
 
-  <div class="max-w-screen-2xl mx-auto w-full">
-    <QRow>
-      <template #sidebar>
-        <aside class="pr-8 border-r py-6 h-full">
-          <slot name="sidebar"></slot>
-        </aside>
-      </template>
+  <div class="flex flex-1 max-w-screen-2xl mx-auto w-full">
+    <aside class="w-[220px] border-r p-6 hidden lg:block">
+      <slot name="sidebar"></slot>
+    </aside>
 
-      <main class="py-6">
-        <slot></slot>
-      </main>
-    </QRow>
+    <main class="flex-1 p-6">
+      <slot></slot>
+    </main>
   </div>
 
   <footer class="border-t">
