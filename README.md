@@ -15,49 +15,49 @@ Seu objetivo é trabalhar em um projeto já iniciado, corrigindo detalhes de **C
 
 ### 🎨 CSS
 
-- [ ] Ajustar o layout da página:
-    - [ ] Fixar a sidebar na lateral esquerda da página 📏.
-    - [ ] Definir a largura da sidebar em 220px 📏.
-    - [ ] Ocultar a sidebar em telas menores 📱 _(abaixo de 1023px)_.
-    - [ ] O conteúdo principal deve ocupar o espaço restante da largura da página 📏.
-    - [ ] Realizar ajustes necessários no layout para otimizar a experiência do usuário 🎨.
-- [ ] Ajustar a listagem de cards de ofertas:
-    - [ ] Espaçamento de 16px entre os cards 📏.
-    - [ ] Exibir 1 card por linha em telas pequenas 📱 _(até 639px)_.
-    - [ ] Exibir 2 cards por linha em telas médias 📱 _(640px ~ 767px)_.
-    - [ ] Exibir 3 cards por linha em telas grandes 📱 _(768px ~ 1023px)_.
-    - [ ] Exibir 4 cards por linha em telas extra grandes 📱 _(1024px ~ 1535px)_.
-    - [ ] Exibir 5 cards por linha em telas maiores 📱 _(1536px ou mais)_.
+- [x] Ajustar o layout da página:
+    - [x] Fixar a sidebar na lateral esquerda da página 📏.
+    - [x] Definir a largura da sidebar em 220px 📏.
+    - [x] Ocultar a sidebar em telas menores 📱 _(abaixo de 1023px)_.
+    - [x] O conteúdo principal deve ocupar o espaço restante da largura da página 📏.
+    - [x] Realizar ajustes necessários no layout para otimizar a experiência do usuário 🎨.
+- [x] Ajustar a listagem de cards de ofertas:
+    - [x] Espaçamento de 16px entre os cards 📏.
+    - [x] Exibir 1 card por linha em telas pequenas 📱 _(até 639px)_.
+    - [x] Exibir 2 cards por linha em telas médias 📱 _(640px ~ 767px)_.
+    - [x] Exibir 3 cards por linha em telas grandes 📱 _(768px ~ 1023px)_.
+    - [x] Exibir 4 cards por linha em telas extra grandes 📱 _(1024px ~ 1535px)_.
+    - [x] Exibir 5 cards por linha em telas maiores 📱 _(1536px ou mais)_.
 
 ### 🛠️ JavaScript
 
-- [ ] Realizar uma requisição para a API de ofertas e exibir os cards 📦  
+- [x] Realizar uma requisição para a API de ofertas e exibir os cards 📦  
   _(`GET http://localhost:3000/offers`)_
-- [ ] Exibir corretamente os detalhes do card:
-    - [ ] Tipo `presencial` como `Presencial` 🏫.
-    - [ ] Tipo `ead` como `EaD` 🏠.
-    - [ ] Nível `bacharelado` como `Graduação (bacharelado)` 🎓.
-    - [ ] Nível `tecnologo` como `Graduação (tecnólogo)` 🎓.
-    - [ ] Nível `licenciatura` como `Graduação (licenciatura)` 🎓.
-    - [ ] Exibir estrelas conforme a propriedade `rating` 🌟.
-    - [ ] Exibir meia estrela para valores fracionados de `rating` _(Ex: `4.9`)_.
-    - [ ] Formatar os valores de `fullPrice` e `offeredPrice` como moeda 💰 _(Ex: `R$ 550,00`)_.
-    - [ ] Calcular e exibir a porcentagem de desconto 📉.
-    - [ ] Exibir a porcentagem de desconto no formato `27%` 📉.
-- [ ] Implementar a busca de ofertas por nome:
-    - [ ] A busca deve ser realizada nos dados em memória, sem nova requisição 🔄.
-    - [ ] Busca **case-insensitive** 🔄.
-    - [ ] A busca só ocorre ao pressionar o botão de busca 🔍.
-- [ ] Implementar a ordenação de ofertas:
-    - [ ] Ordenação pelo nome do curso 📝.
-    - [ ] Ordenação por `offeredPrice` 📉.
-    - [ ] Ordenação por `rating` 🌟.
-- [ ] Implementar filtros de ofertas:
-    - [ ] Filtro realizado nos dados em memória 🔄.
-    - [ ] Filtrar por `level` 🎓.
-    - [ ] Filtrar por `kind` 🏫.
-    - [ ] Filtrar por `offeredPrice` com range 📉 _(exibir no formato `R$ 550,00`)_.
-    - [ ] Permitir aplicar múltiplos filtros simultaneamente 📌.
+- [x] Exibir corretamente os detalhes do card:
+    - [x] Tipo `presencial` como `Presencial` 🏫.
+    - [x] Tipo `ead` como `EaD` 🏠.
+    - [x] Nível `bacharelado` como `Graduação (bacharelado)` 🎓.
+    - [x] Nível `tecnologo` como `Graduação (tecnólogo)` 🎓.
+    - [x] Nível `licenciatura` como `Graduação (licenciatura)` 🎓.
+    - [x] Exibir estrelas conforme a propriedade `rating` 🌟.
+    - [x] Exibir meia estrela para valores fracionados de `rating` _(Ex: `4.9`)_.
+    - [x] Formatar os valores de `fullPrice` e `offeredPrice` como moeda 💰 _(Ex: `R$ 550,00`)_.
+    - [x] Calcular e exibir a porcentagem de desconto 📉.
+    - [x] Exibir a porcentagem de desconto no formato `27%` 📉.
+- [x] Implementar a busca de ofertas por nome:
+    - [x] A busca deve ser realizada nos dados em memória, sem nova requisição 🔄.
+    - [x] Busca **case-insensitive** 🔄.
+    - [x] A busca só ocorre ao pressionar o botão de busca 🔍.
+- [x] Implementar a ordenação de ofertas:
+    - [x] Ordenação pelo nome do curso 📝.
+    - [x] Ordenação por `offeredPrice` 📉.
+    - [x] Ordenação por `rating` 🌟.
+- [x] Implementar filtros de ofertas:
+    - [x] Filtro realizado nos dados em memória 🔄.
+    - [x] Filtrar por `level` 🎓.
+    - [x] Filtrar por `kind` 🏫.
+    - [x] Filtrar por `offeredPrice` com range 📉 _(exibir no formato `R$ 550,00`)_.
+    - [x] Permitir aplicar múltiplos filtros simultaneamente 📌.
 
 O arquivo `server.json` não deve ser alterado. 🚫
 
